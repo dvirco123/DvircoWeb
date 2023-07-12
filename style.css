@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
 }
 a:visited { 
     text-decoration: none; 
@@ -110,19 +112,17 @@ a {text-decoration: none;
 
 .bodyblock {
     font-family: playfair display;
-    position: fixed;
     padding: 40px;
     left: 1%;
     right: 1%;
     display: flex;
+    flex-flow: row-reverse wrap ;
     justify-content: center;
-    min-height: 500px;
     background-color: white;
     border-style: solid;
     border-width: 2px;
     border-color: black;
     border-radius: 10px;
-    position: absolute;
     font-size: 20px;
 }
 .aboutone {
@@ -130,12 +130,16 @@ a {text-decoration: none;
     border-style: solid;
     border-width: 5px;
     border-color: white;
-    width: 60%;
     height: 100%;
     margin-top: 20px;
     margin-right: 20px;
-    max-width: 400px;
+    max-width: 600px;
 }
+
+.aboutone > p {
+    width: 100%;
+}
+
 .abouttwo {
     background-color: white;
     border-style: solid;
@@ -334,7 +338,6 @@ a {text-decoration: none;
     border-width: 2px;
     border-color: black;
     border-radius: 10px;
-    position: absolute;
     top: 104%;
     display: flex;
     justify-content: center;
